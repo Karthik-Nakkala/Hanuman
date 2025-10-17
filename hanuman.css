@@ -1,0 +1,102 @@
+@font-face {
+    font-family: neu;
+    src: url(./styles/NeueMachina-Regular_DQCmjH1st.ttf);
+}
+@font-face {
+    font-family: hell;
+    src: url(./styles/HelveticaNowDisplay-Light_M4nzWhve6k_k7HolyzL10.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #111;
+}
+.nav1 img{
+    height: 50px;
+    width: 40px;
+    border-radius: 15px;
+}
+.nav1 h4{
+    color: white;
+    width: 50px;
+    font-family: neu;
+    font-weight: 100;
+    font-size: 17px;
+    
+}
+.nav2 h4{
+    color: white;
+    font-weight: 100;
+    font-family: neu;
+    font-size: 16px;
+    
+    
+}
+.nav3 h4{
+    color: white;
+    font-weight: 100;
+    font-family: neu;
+    font-size: 16px;
+    
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 20px;
+    padding: 15px 30px;
+    position: fixed;
+    width: 100%;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: flex-end;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+.nav3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+.nav2 img{
+    height: 25px;
+    border-radius: 50%;
+}
+.nav3 img{
+    height: 25px;
+    border-radius: 50%;
+}
+
+.nav3{
+    display: none;
+    align-items: center;
+    gap: 30px;
+
+}
+
+@media (max-width:550px){
+    .nav2{
+        display: none;
+    }
+    .nav3{
+        display: flex;
+    }
+    
+}

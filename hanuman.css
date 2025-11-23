@@ -90,6 +90,16 @@ nav{
     gap: 30px;
 
 }
+main{
+    padding-top: 100px;
+}
+.section1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 15px 50px;
+    color: white;
+}
 
 @media (max-width:550px){
     .nav2{
